@@ -33,7 +33,7 @@ ReactDOM.render(
                    <Route path="/buynow" element={<Buynow/>}/>
                    <Route path="/compare/:id" element={<Compare/>}/>
           </Routes>
-          <Footer /> 
+          {/* <Footer /> */}
        </BrowserRouter>
      </Provider>
    </Contextprovider>
